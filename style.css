@@ -4,20 +4,62 @@ body{
     box-sizing: border-box;
 }
 
-.container{
+ .container{
     display: flex;
     justify-content: space-between;
-     /* height: 100vh; */
-    /* width: 100%; */
+     
+    
     background-color: #002062;
 
+}
+@media screen and (max-width: 650px){
+    body{
+        background-color: #002062;
+    }
+    .container{
+        flex-direction: column;
+        align-items: start;
+        
+    }
+}
+@media screen and (max-width: 786px){
+    body{
+        background-color: #002062;
+    }
+    .container{
+        flex-direction: column;
+        align-items: center;
+        background-color: #002062;
+
+    }
+    .right_side{
+        display: none;
+    }
+    .left_side{
+        background-color: #002062;
+        margin-top: 20px;
+        margin-left: 0px;
+        width: 100%;
+        height: 114px;
+
+    }
+    .left_text{
+        color: black;
+        font-weight: 400px;
+        font-size: 25px;
+        line-height: 20px;
+        margin-left: 15px;
+        margin-top: 20px;
+        text-align: center;
+        
+    }
 }
 .right_side{
     background-image: url(shutterstock_2199674497@3x\ 1\ \(1\).png);
     width: 895px;
     height: 1024px;
     left: 581px;
-    /* overflow: hidden; */
+    
     background-position: center;
     background-size: cover;
     
@@ -154,6 +196,8 @@ body{
   .account-section a:hover {
     text-decoration: underline; 
   }
+ 
+
 
 
   
