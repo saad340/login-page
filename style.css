@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+     /* height: 100vh; */
+    /* width: 100%; */
+    background-color: #002062;
+
+}
+.right_side{
+    background-image: url(shutterstock_2199674497@3x\ 1\ \(1\).png);
+    width: 895px;
+    height: 1024px;
+    left: 581px;
+    /* overflow: hidden; */
+    background-position: center;
+    background-size: cover;
+    
+
+}
+.left_side{
+    margin-top: 45px;
+    margin-left: 90px;
+    width: 419px;
+    height: 114px;
+
+    
+}
+.left_text{
+    color: white;
+    font-weight: 400px;
+    font-size: 40px;
+    line-height: 20px;
+    margin-left: 15px;
+    margin-top: 80px;
+}
+.cont{
+    margin-top: 80px;
+}
+.input-container {
+    position: relative;
+    
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.user{
+    width: 310px;
+    height: 48.84px;
+    border-radius: 10px;
+    border: 0.3px solid #4671C6A6;
+    background-color: #0F2D6B;
+
+    color: white;
+    padding-left: 50px;
+
+}
+
+.input-icon {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    transform: translateY(-50%);
+    width: 20px; 
+    height: 17px; 
+    padding-left: 20px;
+}
+.ahref{
+    color: white;
+    margin-left: 250px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.ahref:hover{
+    text-decoration: underline;
+}
+.btn{
+    width: 370px;
+    height: 60.84px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 15px;
+    margin-top: 70px;
+    background-color: #1A4FBA;
+    color: white;
+
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-right: 15px;
+    margin-top: 30px;
+
+  }
+  
+  .text::before,
+  .text::after {
+    content: '';
+    position: absolute;
+    width: 180px; 
+    height: 1px; 
+    background: white;
+    top: 50%; 
+    transform: translateY(-50%); 
+  }
+  
+  .text::before {
+    left: -0px; 
+    
+  }
+  
+  .text::after {
+    right: -0px; 
+  }
+  .btn_btn{
+    margin-top: 40px;
+  }
+  .btn-google{
+    width: 370px;
+    height: 60.84px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 10px;
+    background-color: #1A4FBA;
+    color: white;
+    text-align: center;
+    
+  }
+  
+  .account-section {
+    font-family: Arial, sans-serif; 
+    font-size: 16px; 
+    text-align: center; 
+  }
+  .account-section p{
+    color: white;
+    font-size: 16px;
+  }
+
+  .account-section a {
+    color: #4671C6; 
+    text-decoration: none; 
+    
+  }
+
+  .account-section a:hover {
+    text-decoration: underline; 
+  }
+
+
+  
+  
+
